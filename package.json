@@ -4,7 +4,7 @@
   "description": "Rest API to upload your resume and send it via mail",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "upload_resume"
@@ -12,9 +12,9 @@
   "author": "Anshu <kumaranshu72@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "formidable": "^1.2.1",
     "nodemailer": "^4.6.8",
     "nodemon": "^1.18.5"
   }
