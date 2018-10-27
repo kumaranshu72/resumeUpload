@@ -1,0 +1,14 @@
+{
+  "name": "upload_resume",
+  "version": "1.0.0",
+  "description": "Rest API to upload your resume and send it via mail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload_resume"
+  ],
+  "author": "Anshu <kumaranshu72@gmail.com>",
+  "license": "ISC"
+}
