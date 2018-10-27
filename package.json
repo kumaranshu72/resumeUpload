@@ -4,7 +4,7 @@
   "description": "Rest API to upload your resume and send it via mail",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "nodemon index.js"
   },
   "keywords": [
     "upload_resume"
