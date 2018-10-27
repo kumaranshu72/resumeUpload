@@ -2,10 +2,14 @@ var path = require('path'),
     nodeMailer = require('nodemailer'),
     formidable = require('formidable'),
     keys = require('../config/keys');
+
 module.exports = {
+  //send mail function
   sendMail : function(req,res) {
+    //creating multiform data object
     var form = new formidable.IncomingForm();
       form.parse(req, function (err, fields, files) {
+        //configuring node mailer to send mails
        let transporter = nodeMailer.createTransport({
             host: 'smtp.gmail.com',
             port: 465,
@@ -27,7 +31,7 @@ module.exports = {
                 }
               ]
           };
-
+          //sending mail using mailer
           transporter.sendMail(mailOptions, (error, info) => {
               if (error) {
                   res.send("Something went wrong Try After Sometime")
