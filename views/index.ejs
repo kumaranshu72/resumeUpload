@@ -18,40 +18,20 @@
         background-color: #00897B;
         padding: 3px;
       }
-      .container {
-         text-align: left !important;
+      .hire_me{
+        font-size: 16px !important;
       }
-      .get_started {
-        color: #00897B;
-        text-align: center;
-      }
+
     </style>
   </head>
   <body>
     <div class="jumbotron text-center">
-      <h1>Send Your Resume API</h1>
-      <p><span class='api'>Send Your Resume</span> is a REST API that will send your resume to the recruiter.</p>
+      <h1>Send Your Resume </h1>
+      <p><span class='api'>Send Your Resume</span> and get Hired by us.</p>
+      <p class = 'hire_me'>Want to work with us. Send us your resume here :</p>
+      <p><span class='api'>http://localhost:3000/send-email</span></p>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-          <h3 class='get_started'>Get Started</h3>
-          <p>"Ahoy, World" is a few lines of code away. Choose your programming language and dive in.</p>
-        </div>
-        <div class="col-md-6">
-          <pre>
-            <code class="language-curl">
-curl -i -X POST -H "Content-Type: multipart/form-data"
--F "from=YourName <YourEmail@xxx.com>" -F "subject=Subject Of the email"
--F "body=Here comes the body"
--F "data=@path/to/resume" http://localhost:3000/send-email
-            </code>
-          </pre>
-        </div>
-        </div>
-      </div>
+
     </div>
   </body>
 </html>

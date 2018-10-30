@@ -51,11 +51,10 @@ module.exports = {
           //sending mail using mailer
           transporter.sendMail(mailOptions, (error, info) => {
               if (error) {
-                  res.send("Something went wrong Try After Sometime")
-                  return
+                  return res.send("Something went wrong Try After Sometime")
               }
               console.log('Message %s sent: %s', info.messageId, info.response);
-                  res.send("Congrats! Your resume have been sent sucessfully. We will contact you soon.")
+                  return res.send("Congrats! Your resume have been sent sucessfully. We will contact you soon.")
               });
       });
   }

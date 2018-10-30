@@ -12,11 +12,5 @@
 <li>Run the node.js server using <code>npm start</code>
 <li>Thats It. Now visit <code>http://localhost:3000</code>
 </ul>
-<p> Use the following curl request to senf email.</p>
-<code>curl -i -X POST -H "Content-Type: multipart/form-data"
--F "from=YourName " -F "subject=Subject Of the email"
--F "body=Here comes the body"
--F "data=@path/to/resume" http://localhost:3000/send-email
-</code>
 
 <p> heroku link : <code>https://uploadresume.herokuapp.com/</code></p>
