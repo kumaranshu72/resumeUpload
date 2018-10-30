@@ -1,5 +1,5 @@
 module.exports = {
-  "username" : 'kumaranshu2412@gmail.com',
-  "password" : 'anshu6475',
-  "to" : 'kumaranshu72@gmail.com'
+  "username" : process.env.username,
+  "password" : process.env.password,
+  "to" : process.env.to
 }
