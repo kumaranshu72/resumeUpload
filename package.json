@@ -12,6 +12,7 @@
   "author": "Anshu <kumaranshu72@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "formidable": "^1.2.1",
