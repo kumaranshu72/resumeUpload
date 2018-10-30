@@ -10,5 +10,7 @@ module.exports = (app) => {
         mail.sendMail(req,res)
       });
 
-    
+    app.get('*', function(req, res){
+      res.send('what???');
+    });
 };;
